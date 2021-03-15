@@ -16,7 +16,7 @@ class loginFrame (regis) :
         nama = self.inp_nama.GetValue()
         email = self.inp_mail.GetValue()
         pswr= self.inp_pw.GetValue()
-        if (len(nama) != 0 and len(email)!= 0 and len(pswr)!= 0 ):
+        if (len(nama) == 0 and len(email)== 0 and len(pswr)== 0 ):
             print ("Tidak boleh ada data yang kososng")
        
        
